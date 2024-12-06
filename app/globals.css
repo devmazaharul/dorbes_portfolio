@@ -3,19 +3,28 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
+  background: #ecf3f1;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.primary-button{
+  @apply bg-[#448c74] text-white px-6 py-2 rounded-lg font-semibold hover:bg-[#000]
+}
+.secoundary-button{
+  @apply  text-gray-600 hover:text-white border-gray-400 hover:border-[#448c74] px-6 py-2 border rounded-xl  font-semibold hover:bg-[#448c74]
+}
+
+.card{
+  @apply bg-[#ffffff] p-6 mb-6 rounded-md shadow-xl shadow-[#ecf0ec]  
+}
+.container{
+  @apply  p-6 my-6
+}
+
+
+.flexitem{
+  @apply flex items-center gap-6
+}
+.flexitembtn{
+  @apply flex items-center gap-2
 }

@@ -9,10 +9,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        body_background: "#ecf3f1",
+        primary:"#448c74",
+        secondary:"#000000",
+        light:"#ffffff"
       },
+      
+      
     },
+    
+    
   },
+  darkMode:"media",
   plugins: [],
 } satisfies Config;

@@ -1,4 +1,5 @@
 import Client from '@/components/Client'
+import Contact from '@/components/Contact'
 import Hero from '@/components/Hero'
 import Plan from '@/components/Plan'
 import Services from '@/components/Services'
@@ -39,6 +40,9 @@ export default function page() {
     </div>
     <div className='container'>
      <Stories/>
+    </div>
+    <div className='container'>
+     <Contact/>
     </div>
   
   </>
